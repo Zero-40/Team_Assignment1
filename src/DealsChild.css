@@ -1,0 +1,39 @@
+#image1 {
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5px;
+    borderRadius:50%
+    
+  }
+  .Menuclass1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 80px;
+    
+    outline: 5px dashed #1C6EA4;
+outline-offset: 0px;
+    padding: 1px;
+    margin: 10px;
+  }
+.collection-footer1{
+    padding: 3px;
+    margin: 3px;
+}
+.colorchange{
+	animation:  colorchangethapa 1s infinite;
+}
+
+@keyframes colorchangethapa{
+	0%{color: red;}
+	15%{color:black;}
+	25%{color:#bf55ec; }
+	35%{color:orange;}
+	45%{color:#4E8184;}
+	55%{ color: white; }
+	65%{ color: #EDDA3B; }
+	75%{ color: #4C8A41; }
+	85%{ color: #CAF040; }
+	100%{ color:  #B85CB5;}
+}

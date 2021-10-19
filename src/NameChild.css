@@ -1,0 +1,23 @@
+#image {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5px;
+    borderRadius:50%
+    
+  }
+  .Menuclass{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 200px;
+    border: 9px solid #1C6EA4;
+    outline: 9px solid #1C6EA4;
+outline-offset: 0px;
+    padding: 10px;
+    margin: 20px;
+  }
+.collection-footer{
+    padding: 10px;
+    margin: 10px;
+}
